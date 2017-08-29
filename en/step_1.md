@@ -1,19 +1,31 @@
-## Introduction
+If you don’t have access to a Sense HAT, you can use the emulator.
 
-Add project description here. What will learners be making?
+### Sense HAT online emulator
 
-### What you will make
+There is an online emulator you can use to code the Sense HAT in your browser.
 
-Add something here to showcase here, for example:
+![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
++ Open an internet browser and go to  [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"}
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
++ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on trinket.io
 
-### What you will learn
+### Sense HAT emulator on Raspberry Pi
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+If you are using a Raspberry Pi, there is a Sense HAT emulator included with Raspbian.
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+![Sense HAT emulator on Raspbian](images/pi-emulator.png)
+
++ From the main menu, select **Programming** > **Sense HAT emulator** to open a window containing the emulator.
+
++ If you are using this version of the emulator, you must import from `sense_emu` instead of `sense_hat`:
+
+```python
+from sense_emu import SenseHat
+```
+
+If you later want to run your code on a real Sense HAT, just change the import line back. All other code remains exactly the same. 
+
+```python
+from sense_hat import SenseHat
+```

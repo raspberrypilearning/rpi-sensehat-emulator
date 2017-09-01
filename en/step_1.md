@@ -1,18 +1,18 @@
 If you don’t have access to a Sense HAT, you can use the emulator.
 
-### Sense HAT online emulator
+### Online Sense HAT emulator
 
-There is an online emulator you can use to code the Sense HAT in your browser.
+There is an online emulator you can use in your browser to write and test code for the Sense HAT.
 
 ![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
 
-+ Open an internet browser and go to  [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"}
++ Open an internet browser and go to  [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"}.
 
-+ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on trinket.io
++ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
 
-### Sense HAT emulator on Raspberry Pi
+### Sense HAT emulator on the Raspberry Pi
 
-If you are using a Raspberry Pi, there is a Sense HAT emulator included with Raspbian.
+If you are using a Raspberry Pi, there is a Sense HAT emulator included in the Raspbian operating system.
 
 ![Sense HAT emulator on Raspbian](images/pi-emulator.png)
 
@@ -24,7 +24,7 @@ If you are using a Raspberry Pi, there is a Sense HAT emulator included with Ras
 from sense_emu import SenseHat
 ```
 
-If you later want to run your code on a real Sense HAT, just change the import line back. All other code remains exactly the same.
+If you later want to run your code on a real Sense HAT, just change the import line as shown below. All other code can remain exactly the same.
 
 ```python
 from sense_hat import SenseHat

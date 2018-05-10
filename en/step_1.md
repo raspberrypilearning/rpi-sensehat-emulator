@@ -6,7 +6,7 @@ There is an online emulator you can use in your browser to write and test code f
 
 ![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
 
-+ Open an internet browser and go to  [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"}.
++ Open an internet browser, go to [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} and delete the existing demo code which is in the editor.
 
 + If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
 

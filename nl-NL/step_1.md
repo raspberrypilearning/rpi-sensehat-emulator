@@ -1,30 +1,30 @@
-If you don’t have access to a Sense HAT, you can use the emulator.
+Als je geen toegang hebt tot een Sense HAT, kun je de emulator gebruiken.
 
-### Online Sense HAT emulator
+### Online Sense HAT-emulator
 
-There is an online emulator you can use in your browser to write and test code for the Sense HAT.
+Er is een online emulator die je in je browser kunt gebruiken om code voor de Sense HAT te schrijven en te testen.
 
-![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
+![Sense HAT-emulator op trinket](images/sense-hat-trinket.png)
 
-+ Open an internet browser, go to [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} and delete the existing demo code which is in the editor.
++ Open een internetbrowser, ga naar [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} en verwijder de bestaande democode die zich in de editor bevindt.
 
-+ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
++ Als je je werk wilt opslaan, moet je [een gratis account maken](https://trinket.io/signup){:target="_blank"} op de Trinket-website.
 
-### Sense HAT emulator on the Raspberry Pi
+### Sense HAT-emulator op de Raspberry Pi
 
-If you are using a Raspberry Pi, there is a Sense HAT emulator included in the Raspbian operating system.
+Als je een Raspberry Pi gebruikt, is er een Sense HAT-emulator opgenomen in het Raspbian-besturingssysteem.
 
-![Sense HAT emulator on Raspbian](images/pi-emulator.png)
+![Sense HAT-emulator op Raspbian](images/pi-emulator.png)
 
-+ From the main menu, select **Programming** > **Sense HAT emulator** to open a window containing the emulator.
++ Selecteer **Programmering** > **Sense HAT-emulator** in het hoofdmenu om een venster met de emulator te openen.
 
-+ If you are using this version of the emulator, your program must import from `sense_emu` instead of `sense_hat`:
++ Als je deze versie van de emulator gebruikt, moet je programma importeren vanuit `sense_emu` plaats van `sense_hat`:
 
 ```python
 from sense_emu import SenseHat
 ```
 
-If you later want to run your code on a real Sense HAT, just change the import line as shown below. All other code can remain exactly the same.
+Als je je code later wilt uitvoeren op een echte Sense HAT, wijzig je gewoon de importregel zoals hieronder wordt weergegeven. Alle andere code kan exact hetzelfde blijven.
 
 ```python
 from sense_hat import SenseHat

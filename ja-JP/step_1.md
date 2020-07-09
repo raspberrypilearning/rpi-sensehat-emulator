@@ -1,30 +1,30 @@
-If you don’t have access to a Sense HAT, you can use the emulator.
+Sense HATが使えない場合は、エミュレータが使えます。
 
-### Online Sense HAT emulator
+### オンラインのSense HATエミュレータ
 
-There is an online emulator you can use in your browser to write and test code for the Sense HAT.
+Sense HATのコードを書いたり試したりするためにブラウザで使えるオンラインのエミュレータがあります。
 
-![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
+![TrinketのSense HATエミュレータ](images/sense-hat-trinket.png)
 
-+ Open an internet browser, go to [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} and delete the existing demo code which is in the editor.
++ インターネットブラウザを開いて[https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} に移動し、エディタに書かれているデモコードを消します。
 
-+ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
++ 書いたコードを保存したい場合は、Trinketのウェブサイトで[無料のアカウントを作成する](https://trinket.io/signup){:target="_blank"}必要があります。
 
-### Sense HAT emulator on the Raspberry Pi
+### Raspberry Piで動くSense HATエミュレータ
 
-If you are using a Raspberry Pi, there is a Sense HAT emulator included in the Raspbian operating system.
+Raspberry Piを使う場合は、Raspberry Pi OSにSense HATエミュレータがあります。
 
-![Sense HAT emulator on Raspbian](images/pi-emulator.png)
+![Raspberry Pi OSのSense HATエミュレータ](images/pi-emulator.png)
 
-+ From the main menu, select **Programming** > **Sense HAT emulator** to open a window containing the emulator.
++ メインメニューから**プログラミング** > **Sense HAT Emulator**を選び、エミュレータウィンドウを開きます。
 
-+ If you are using this version of the emulator, your program must import from `sense_emu` instead of `sense_hat`:
++ このバージョンのエミュレータを使う場合は、プログラムで`sense_hat`からインポートするかわりに`sense_emu`からインポートしなければなりません。
 
 ```python
 from sense_emu import SenseHat
 ```
 
-If you later want to run your code on a real Sense HAT, just change the import line as shown below. All other code can remain exactly the same.
+後で実物のSense HATでコードを実行したい場合は、インポートしている行を以下のように変更するだけです。 他のコードはすべてそのままで良いです。
 
 ```python
 from sense_hat import SenseHat

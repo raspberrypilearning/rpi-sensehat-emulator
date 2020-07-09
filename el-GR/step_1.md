@@ -1,30 +1,30 @@
-If you don’t have access to a Sense HAT, you can use the emulator.
+Εάν δεν έχεις πρόσβαση στο Sense HAT, μπορείς να χρησιμοποιήσεις τον εξομοιωτή.
 
-### Online Sense HAT emulator
+### Εξομοιωτής Sense HAT σε σύνδεση
 
-There is an online emulator you can use in your browser to write and test code for the Sense HAT.
+Υπάρχει ένας εξομοιωτής σε σύνδεση που μπορείς να χρησιμοποιήσεις στο πρόγραμμα περιήγησής σου για να γράψεις και να δοκιμάσεις κώδικα για το Sense HAT.
 
-![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
+![Εξομοιωτής Sense HAT στο trinket](images/sense-hat-trinket.png)
 
-+ Open an internet browser, go to [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} and delete the existing demo code which is in the editor.
++ Άνοιξε ένα πρόγραμμα περιήγησης, μετακινήσου στη διεύθυνση [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_ blank"} και διέγραψε τον υπάρχοντα κώδικα επίδειξης που υπάρχει στο πρόγραμμα επεξεργασίας.
 
-+ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
++ Εάν θέλεις να αποθηκεύσεις την εργασία σου, θα πρέπει να [δημιουργήσεις έναν δωρεάν λογαριασμό](https://trinket.io/signup){:target="_ blank"} στον ιστότοπο του Trinket.
 
-### Sense HAT emulator on the Raspberry Pi
+### Εξομοιωτής Sense HAT στο Raspberry Pi
 
-If you are using a Raspberry Pi, there is a Sense HAT emulator included in the Raspbian operating system.
+Εάν χρησιμοποιείς ένα Raspberry Pi, υπάρχει ένας εξομοιωτής Sense HAT που περιλαμβάνεται στο λειτουργικό σύστημα Raspbian.
 
-![Sense HAT emulator on Raspbian](images/pi-emulator.png)
+![Εξομοιωτής Sense HAT στο Raspbian](images/pi-emulator.png)
 
-+ From the main menu, select **Programming** > **Sense HAT emulator** to open a window containing the emulator.
++ Από το κύριο μενού, επίλεξε **Προγραμματισμός** > **Εξομοιωτής Sense HAT** για να ανοίξεις ένα παράθυρο που περιέχει τον εξομοιωτή.
 
-+ If you are using this version of the emulator, your program must import from `sense_emu` instead of `sense_hat`:
++ Εάν χρησιμοποιείς αυτήν την έκδοση του εξομοιωτή, το πρόγραμμά σου πρέπει να εισαγάγει από `sense_emu` αντί για `sense_hat`:
 
 ```python
 from sense_emu import SenseHat
 ```
 
-If you later want to run your code on a real Sense HAT, just change the import line as shown below. All other code can remain exactly the same.
+Εάν αργότερα θέλεις να εκτελέσεις τον κώδικά σου σε πραγματικό Sense HAT, απλώς άλλαξε τη γραμμή εισαγωγής όπως φαίνεται παρακάτω. Όλος ο άλλος κωδικός μπορεί να παραμείνει ακριβώς ο ίδιος.
 
 ```python
 from sense_hat import SenseHat

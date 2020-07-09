@@ -1,30 +1,30 @@
-If you don’t have access to a Sense HAT, you can use the emulator.
+Si tu n'as pas accès à un Sense HAT, tu peux utiliser l'émulateur.
 
-### Online Sense HAT emulator
+### Émulateur Sense HAT en ligne
 
-There is an online emulator you can use in your browser to write and test code for the Sense HAT.
+Il existe un émulateur en ligne que tu peux utiliser dans ton navigateur pour écrire et tester le code du Sense HAT.
 
-![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
+![Émulateur Sense HAT sur trinket](images/sense-hat-trinket.png)
 
-+ Open an internet browser, go to [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} and delete the existing demo code which is in the editor.
++ Ouvre un navigateur Internet, va sur [ https://trinket.io/sense-hat ](https://trinket.io/sense-hat){:target="_ blank"} et supprime le code démo existant qui se trouve dans l'éditeur.
 
-+ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
++ Si tu souhaites enregistrer ton travail, tu devras [créer un compte gratuit](https://trinket.io/signup){:target="_ blank"} sur le site Web Trinket.
 
-### Sense HAT emulator on the Raspberry Pi
+### Émulateur Sense HAT sur le Raspberry Pi
 
-If you are using a Raspberry Pi, there is a Sense HAT emulator included in the Raspbian operating system.
+Si tu utilises un Raspberry Pi, un émulateur Sense HAT est inclus dans le système d'exploitation Raspbian.
 
-![Sense HAT emulator on Raspbian](images/pi-emulator.png)
+![Émulateur Sense HAT sur Raspbian](images/pi-emulator.png)
 
-+ From the main menu, select **Programming** > **Sense HAT emulator** to open a window containing the emulator.
++ Dans le menu principal, sélectionne **Programmation** > **Sense HAT Emulator ** pour ouvrir une fenêtre contenant l'émulateur.
 
-+ If you are using this version of the emulator, your program must import from `sense_emu` instead of `sense_hat`:
++ Si tu utilises cette version de l'émulateur, ton programme doit importer à partir de `sense_emu` au lieu de `sense_hat` :
 
 ```python
 from sense_emu import SenseHat
 ```
 
-If you later want to run your code on a real Sense HAT, just change the import line as shown below. All other code can remain exactly the same.
+Si tu souhaites par la suite exécuter ton code sur un vrai Sense HAT, change simplement la ligne d'importation comme indiqué ci-dessous. Tous les autres codes peuvent rester exactement les mêmes.
 
 ```python
 from sense_hat import SenseHat

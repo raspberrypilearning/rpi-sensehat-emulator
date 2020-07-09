@@ -1,31 +1,31 @@
-If you don’t have access to a Sense HAT, you can use the emulator.
+إذا لم تتمكن من الوصول إلى Sense HAT ، يمكنك استخدام المحاكي.
 
-### Online Sense HAT emulator
+### محاكي Sense HAT المتصل بالإنترنت
 
-There is an online emulator you can use in your browser to write and test code for the Sense HAT.
+هناك محاكي عبر الإنترنت يمكنك استخدامه في متصفحك لكتابة واختبار التعليمات البرمجية لـ Sense HAT.
 
-![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
+![محاكي Sense HAT على trinket](images/sense-hat-trinket.png)
 
-+ Open an internet browser, go to [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} and delete the existing demo code which is in the editor.
++ افتح متصفح إنترنت ، انتقل إلى [ https://trinket.io/sense-hat ](https://trinket.io/sense-hat) {: target = "_ blank"} وقم بحذف التعليمة البرمجية التنفيذية الموجودة في المحرر.
 
-+ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
++ إذا كنت تريد حفظ عملك ، فستحتاج إلى [ إنشاء حساب مجاني ](https://trinket.io/signup) {: target = "_ blank"} على موقع Trinket الإلكتروني.
 
-### Sense HAT emulator on the Raspberry Pi
+### محاكي Sense HAT على Raspberry Pi
 
-If you are using a Raspberry Pi, there is a Sense HAT emulator included in the Raspbian operating system.
+إذا كنت تستخدم Raspberry Pi ، فهناك محاكي Sense HAT متضمن في نظام التشغيل Raspbian.
 
-![Sense HAT emulator on Raspbian](images/pi-emulator.png)
+![محاكي Sense HAT على Raspbian](images/pi-emulator.png)
 
-+ From the main menu, select **Programming** > **Sense HAT emulator** to open a window containing the emulator.
++ من القائمة الرئيسية ، حدد ** Programming ** > ** محاكي Sense HAT** لفتح نافذة تحتوي على المحاكي.
 
-+ If you are using this version of the emulator, your program must import from `sense_emu` instead of `sense_hat`:
++ إذا كنت تستخدم هذا الإصدار من المحاكي ، فيجب استيراد برنامجك من ` sense_emu` بدلاً من ` Sense_hat`:
 
 ```python
-from sense_emu import SenseHat
+استيراد SenseHat من sense_emu
 ```
 
-If you later want to run your code on a real Sense HAT, just change the import line as shown below. All other code can remain exactly the same.
+إذا كنت ترغب في وقت لاحق في تشغيل التعليمات البرمجية الخاصة بك على Sense HAT حقيقي ، فما عليك سوى تغيير مسار الاستيراد كما هو موضح أدناه. يمكن أن تبقى كافة التعليمات البرمجية الأخرى كما هي بالضبط.
 
 ```python
-from sense_hat import SenseHat
+استيراد SenseHat من sense_emu
 ```

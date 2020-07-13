@@ -8,17 +8,17 @@
 
 + एक इंटरनेट ब्राउज़र खोलें, [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} पर जाएं और मौजूदा डेमो कोड को मिटा दें जो संपादक में है।
 
-+ यदि आप अपना काम save करना चाहते हैं, तो आपको एक [मुफ्त खाता बनाना होगा](https://trinket.io/signup){:target="_blank"}, Trinket वेबसाइट पर।
++ यदि आप अपना काम save करना चाहते हैं, तो आपको Trinket वेबसाइट पर एक [मुफ्त खाता बनाना होगा](https://trinket.io/signup){:target="_blank"}।
 
 ### Raspberry Pi पर Sense HAT एमुलेटर
 
-यदि आप Raspberry Pi का उपयोग कर रहे हैं, तो Raspbian प्रचालन तंत्र में शामिल एक Sense HAT एमुलेटर है।
+यदि आप Raspberry Pi का उपयोग कर रहे हैं, तो Raspbian ऑपरेटिंग सिस्टम (Operating System) में शामिल एक Sense HAT एमुलेटर है।
 
 ![Raspbian पर Sense HAT एमुलेटर](images/pi-emulator.png)
 
 + मुख्य मेन्यू से, **Programming** > **Sense HAT emulator** चुनें एमुलेटर युक्त विंडो खोलने के लिए।
 
-+ यदि आप एमुलेटर के इस संस्करण का उपयोग कर रहे हैं, तो आपके प्रोग्राम को `sense_emu` से आयात करना होगा ` sense_hat ` के बजाय:
++ यदि आप एमुलेटर के इस संस्करण का उपयोग कर रहे हैं, तो आपके प्रोग्राम को `sense_emu` से आयात करना होगा `sense_hat` के बजाय:
 
 ```python
 from sense_emu import SenseHat

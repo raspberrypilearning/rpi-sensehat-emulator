@@ -18,7 +18,7 @@ Als je een Raspberry Pi gebruikt, is er een Sense HAT-emulator opgenomen in het 
 
 + Selecteer **Programmering** > **Sense HAT-emulator** in het hoofdmenu om een venster met de emulator te openen.
 
-+ Als je deze versie van de emulator gebruikt, moet je programma importeren vanuit `sense_emu` plaats van `sense_hat`:
++ Als je deze versie van de emulator gebruikt, moet je programma importeren vanuit `sense_emu` in plaats van `sense_hat`:
 
 ```python
 from sense_emu import SenseHat

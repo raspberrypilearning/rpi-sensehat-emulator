@@ -1,7 +1,7 @@
 ---
-title: Using the Sense HAT emulator
+title: Sense HAT 에뮬레이터 사용하기
 hero_image: images/banner.png
-description: Learn how to use the Sense HAT emulator
+description: Sense Hat 에뮬레이터 사용 방법 알아보기
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #possible values: 1, 2 or 3
 listed: false
@@ -13,4 +13,4 @@ technologies: "sense-hat, physical computing"
 site_areas:
 steps:
   - 
-    title: Introduction
+    title: 들어가며

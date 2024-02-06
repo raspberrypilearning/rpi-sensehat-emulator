@@ -1,30 +1,30 @@
-If you don’t have access to a Sense HAT, you can use the emulator.
+Якщо у тебе немає доступу до Sense HAT, ти можеш використовувати емулятор.
 
-### Online Sense HAT emulator
+### Емулятор Sense HAT онлайн
 
-There is an online emulator you can use in your browser to write and test code for the Sense HAT.
+Існує онлайн-емулятор, у якому ти можеш писати та тестувати код для Sense HAT у браузері.
 
-![Sense HAT emulator on trinket](images/sense-hat-trinket.png)
+![Емулятор Sense HAT на Trinket](images/sense-hat-trinket.png)
 
-+ Open an internet browser, go to [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} and delete the existing demo code which is in the editor.
++ Відкрий браузер, перейди на [https://trinket.io/sense-hat](https://trinket.io/sense-hat){:target="_blank"} і видали наявний демокод, що знаходиться у редакторі.
 
-+ If you would like to save your work, you will need to [create a free account](https://trinket.io/signup){:target="_blank"} on the Trinket website.
++ Якщо ти хочеш зберегти свою роботу, тобі потрібно [створити безплатний акаунт](https://trinket.io/signup){:target="_blank"} на сайті Trinket.
 
-### Sense HAT emulator on the Raspberry Pi
+### Емулятор Sense HAT на Raspberry Pi
 
-If you are using a Raspberry Pi, there is a Sense HAT emulator included in the Raspbian operating system.
+Якщо ти використовуєш компʼютер Raspberry Pi, у його операційній системі існує емулятор Sense HAT.
 
-![Sense HAT emulator on Raspbian](images/pi-emulator.png)
+![Емулятор Sense HAT на операційній системі Raspberry Pi](images/pi-emulator.png)
 
-+ From the main menu, select **Programming** > **Sense HAT emulator** to open a window containing the emulator.
++ У головному меню вибери **Programming** > **Sense HAT Emulator**, що відкриє вікно з емулятором.
 
-+ If you are using this version of the emulator, your program must import from `sense_emu` instead of `sense_hat`:
++ Якщо ти використовуєш цю версію емулятора, твоя програма має імпортувати з `sense_emu` замість `sense_hat`:
 
 ```python
 from sense_emu import SenseHat
 ```
 
-If you later want to run your code on a real Sense HAT, just change the import line as shown below. All other code can remain exactly the same.
+Якщо пізніше ти захочеш запустити свій код на справжньому Sense HAT, просто заміни рядок з командою import на той, що наведений нижче. Решту коду можна залишити незмінною.
 
 ```python
 from sense_hat import SenseHat

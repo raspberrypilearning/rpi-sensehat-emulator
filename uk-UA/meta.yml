@@ -1,7 +1,7 @@
 ---
-title: Using the Sense HAT emulator
+title: Використання емулятора Sense HAT
 hero_image: images/banner.png
-description: Learn how to use the Sense HAT emulator
+description: Дізнайся, як використовувати емулятор Sense HAT
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #possible values: 1, 2 or 3
 listed: false
@@ -13,4 +13,4 @@ technologies: "sense-hat, physical computing"
 site_areas:
 steps:
   - 
-    title: Introduction
+    title: Вступ
